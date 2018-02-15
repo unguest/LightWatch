@@ -1,0 +1,25 @@
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\bin\Debug\LightWatch.exe
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\bin\Debug\LightWatch.pdb
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\bin\Debug\LightWatch.xml
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\LightWatch.Resources.resources
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\LightWatch.vbproj.GenerateResource.Cache
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\LightWatch.exe
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\LightWatch.xml
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\LightWatch.pdb
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\bin\Debug\Interop.WMPLib.dll
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\LightWatch.vbproj.ResolveComReference.cache
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\bin\Debug\en\LightWatch.resources.dll
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\LightWatch.About.resources
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\LightWatch.Player.resources
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\LightWatch.URL_Input.resources
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\LightWatch.Player.en.resources
+C:\Users\artpn\AppData\Local\Temporary Projects\LightWatch\obj\x86\Debug\en\LightWatch.resources.dll
+D:\Autres\VBNET\Projets\LightWatch\LightWatch\obj\x86\Debug\Interop.WMPLib.dll
+D:\Autres\VBNET\Projets\LightWatch\LightWatch\obj\x86\Debug\AxInterop.WMPLib.dll
+D:\Autres\VBNET\Projets\LightWatch\LightWatch\obj\x86\Debug\LightWatch.vbproj.ResolveComReference.cache
+D:\Autres\VBNET\Projets\LightWatch\LightWatch\obj\x86\Debug\LightWatch.exe
+D:\Autres\VBNET\Projets\LightWatch\LightWatch\obj\x86\Debug\LightWatch.xml
+D:\Autres\VBNET\Projets\LightWatch\LightWatch\obj\x86\Debug\LightWatch.pdb

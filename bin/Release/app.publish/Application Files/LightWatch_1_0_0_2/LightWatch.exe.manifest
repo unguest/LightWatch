@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="LightWatch.exe" version="1.0.0.2" publicKeyToken="0afc88925e0268f3" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="LightWatch" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="LightWatch.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- Options du manifeste de contrôle de compte d'utilisateur
+             Si vous souhaitez modifier le niveau du contrôle de compte d'utilisateur Windows, remplacez le nœud 
+
+             requestedExecutionLevel par l'une des propositions suivantes.
+        <requestedExecutionLevel  level="asInvoker"  uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator"  uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable"  uiAccess="false" />
+
+            La spécification du nœud requestedExecutionLevel désactivera la virtualisation de fichiers et du Registre.
+            Si vous souhaitez utiliser la virtualisation de fichiers et du Registre pour la compatibilité 
+            descendante, supprimez le noeud requestedExecutionLevel.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="AxInterop.WMPLib.dll" size="53760">
+      <assemblyIdentity name="AxInterop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>9QdVZC3yVLpUoEEKA6ovRtcmVFc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Interop.WMPLib.dll" size="330752">
+      <assemblyIdentity name="Interop.WMPLib" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>YKEX4/m3y7Wc1xDadVFDrey3ffU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="LightWatch.exe" size="29696">
+      <assemblyIdentity name="LightWatch" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>Uzmt1w0WW2qmoUZoXONFpGxr3Yc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="en\LightWatch.resources.dll" size="4096">
+      <assemblyIdentity name="LightWatch.resources" version="1.0.0.0" language="en" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>CKR5Gl5/9rNWhOIfqQCoIhv5T+I=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Une liste de toutes les versions de Windows avec laquelle cette application peut fonctionner. Windows sélectionnera automatiquement l'environnement le plus compatible.-->
+      <!-- Si votre application est conçue pour fonctionner avec Windows 7, supprimez les commentaires du nœud supportedOS suivant-->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=DESKTOP-V48SKRG\artpn" issuerKeyHash="52bb3ea829f7d300ecb85ef03c6318b5a2988b48" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>s3caO2yN5ePNbnLOdBUormKL8SA=</DigestValue></Reference></SignedInfo><SignatureValue>AaUHczjDkBlOYm6D1YxbYGHHztop8KY+BiFVFfdjmCz2AYd0fgQF//8afiEJqegSsCbWjlYgF/4J0pbvNxiyaeLYe7zgKHKRCbk7x+EqlWBe5C/zq9oLiL11hfZMdmVIfljoxEoM58/PtKuOiOMBujUDbv+MV4ocvsRQasyYTDQ=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oeKcp/lUoUNF09WVFPkMXjZoD/+NZKTgPUnnCO2SgcYdDl2OHLOjvzkPhjz5Lm8CeKjRKmxxUxceUkKfXFn4bHlNPixnCzCf7Zn1lCvE6BgnQhSNPUnwHmucpPZ9g9Xli06H4ru92E6JlUBPvpRrr4TFp3sFAG8U+jfJwiK0c10=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="20f18b62ae281574ce726ecde3e58d6c3b1a77b3" Description="" Url=""><as:assemblyIdentity name="LightWatch.exe" version="1.0.0.2" publicKeyToken="0afc88925e0268f3" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-V48SKRG\artpn</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>72CimP5zwXk6bCt5HeA9CHH89P0=</DigestValue></Reference></SignedInfo><SignatureValue>Kg/NnDMYkxsWqkv4wipzMPbIdT3hZ6v1nFWK017QwUP4GfQmKI3VaHwLF7mfejj+5Pt7e7cUeMjLqc6tevnwYRbEf/hKowKEHKNuM5ptQZGNtnHsLYNyauMXec3HmT8MuOOxnZDPBz88rL/wRuJzvr4Dqs3HcotyeU2DZiHTUGw=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oeKcp/lUoUNF09WVFPkMXjZoD/+NZKTgPUnnCO2SgcYdDl2OHLOjvzkPhjz5Lm8CeKjRKmxxUxceUkKfXFn4bHlNPixnCzCf7Zn1lCvE6BgnQhSNPUnwHmucpPZ9g9Xli06H4ru92E6JlUBPvpRrr4TFp3sFAG8U+jfJwiK0c10=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQEj5yWBEItoVI/y+VhPS5RTANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFYANAA4AFMASwBSAEcAXABhAHIAdABwAG4wHhcNMTgwMjE1MjA0MDUwWhcNMTkwMjE2MDI0MDUwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAFYANAA4AFMASwBSAEcAXABhAHIAdABwAG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKHinKf5VKFDRdPVlRT5DF42aA//jWSk4D1J5wjtkoHGHQ5djhyzo785D4Y8+S5vAnio0SpscVMXHlJCn1xZ+Gx5TT4sZwswn+2Z9ZQrxOgYJ0IUjT1J8B5rnKT2fYPV5YtOh+K7vdhOiZVAT76Ua6+Exad7BQBvFPo3ycIitHNdAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEASfwN6I5QENGJaH/0dF+WTfeqm9kDX/G38A1KOm/xGwtMU5ehanypUdaRG9frro607rz63g1vVrDV56wVpCLPCjOZIlt4WDcH+pMOerikg1HEnF2AQz1v903gb3QarK2/GdFdjVoU6eKSbLTBdfodovugtKO+VMcBxymdU0s3/0w=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
